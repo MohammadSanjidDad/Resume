@@ -1,0 +1,82 @@
+@import "../Source/colors";
+@import "../Source/typography";
+
+section.Navigation {
+    padding: 30px 0;
+
+    div.Container {
+        nav.Content {
+            display: flex;
+            align-items: center;
+            align-content: center;
+            justify-content: space-between;
+
+            div.Navigation-Logo {
+                a.Logo {
+                    font-size: 28px;
+                    font-family: Saira-600;
+                }
+            }
+
+            div.Navigation-Menu {
+                ul.Main-Menu {
+                    display: flex;
+                    align-items: center;
+                    align-content: center;
+                    justify-content: center;
+
+                    li.Menu-Item {
+                        margin-right: 30px;
+
+                        &:last-child {
+                            margin-right: 0;
+                        }
+
+                        a.Link {
+                            @include Website-Body-Small-Text;
+                            transition: color 0.4s ease-in-out;
+
+                            &:hover {
+                                color: $Website-Primary-Color;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// ============================== Full Code ==============================
+
+//     <section class="Navigation">
+//         <div class="Container">
+//             <nav class="Content">
+//                 <div class="Navigation-Logo">
+//                     <a href="INDEX.HTML" class="Logo"><span class="Active-Color">M. </span>Sanjid</a>
+//                 </div>
+//                 <div class="Navigation-Menu">
+//                     <ul class="Main-Menu">
+//                         <li class="Menu-Item">
+//                             <a href="INDEX.HTML" class="Link Active-Color">Home</a>
+//                         </li>
+//                         <li class="Menu-Item">
+//                             <a href="ABOUT.HTML" class="Link">About Me</a>
+//                         </li>
+//                         <li class="Menu-Item">
+//                             <a href="SEARVICE.HTML" class="Link">What I Do</a>
+//                         </li>
+//                         <li class="Menu-Item">
+//                             <a href="PROJECT.HTML" class="Link">My Project</a>
+//                         </li>
+//                         <li class="Menu-Item">
+//                             <a href="EDUCATION.HTML" class="Link">My Education</a>
+//                         </li>
+//                         <li class="Menu-Item">
+//                             <a href="CONTACT.HTML" class="Link">Contact Me</a>
+//                         </li>
+//                     </ul>
+//                 </div>
+//             </nav>
+//         </div>
+//     </section>

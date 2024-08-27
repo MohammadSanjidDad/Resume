@@ -1,0 +1,153 @@
+// ============================== Saira Local Font Family Link ==============================
+
+@font-face {
+    font-family: Saira-100;
+    src: url(../Font/Saira/Saira-Thin.ttf);
+}
+
+@font-face {
+    font-family: Saira-200;
+    src: url(../Font/Saira/Saira-ExtraLight.ttf);
+}
+
+@font-face {
+    font-family: Saira-300;
+    src: url(../Font/Saira/Saira-Light.ttf);
+}
+
+@font-face {
+    font-family: Saira-400;
+    src: url(../Font/Saira/Saira-Regular.ttf);
+}
+
+@font-face {
+    font-family: Saira-500;
+    src: url(../Font/Saira/Saira-Medium.ttf);
+}
+
+@font-face {
+    font-family: Saira-600;
+    src: url(../Font/Saira/Saira-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: Saira-700;
+    src: url(../Font/Saira/Saira-Bold.ttf);
+}
+
+@font-face {
+    font-family: Saira-800;
+    src: url(../Font/Saira/Saira-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: Saira-900;
+    src: url(../Font/Saira/Saira-Black.ttf);
+}
+
+// ============================== Poppins Local Font Family Link ==============================
+
+@font-face {
+    font-family: Poppins-100;
+    src: url(../Font/Poppins/Poppins-Thin.ttf);
+}
+
+@font-face {
+    font-family: Poppins-200;
+    src: url(../Font/Poppins/Poppins-ExtraLight.ttf);
+}
+
+@font-face {
+    font-family: Poppins-300;
+    src: url(../Font/Poppins/Poppins-Light.ttf);
+}
+
+@font-face {
+    font-family: Poppins-400;
+    src: url(../Font/Poppins/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: Poppins-500;
+    src: url(../Font/Poppins/Poppins-Medium.ttf);
+}
+
+@font-face {
+    font-family: Poppins-600;
+    src: url(../Font/Poppins/Poppins-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: Poppins-700;
+    src: url(../Font/Poppins/Poppins-Bold.ttf);
+}
+
+@font-face {
+    font-family: Poppins-800;
+    src: url(../Font/Poppins/Poppins-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: Poppins-900;
+    src: url(../Font/Poppins/Poppins-Black.ttf);
+}
+
+// ============================== OpenSans Local Font Family Link ==============================
+
+@font-face {
+    font-family: OpenSans-300;
+    src: url(../Font/OpenSans/OpenSans-Light.ttf);
+}
+
+@font-face {
+    font-family: OpenSans-400;
+    src: url(../Font/OpenSans/OpenSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: OpenSans-500;
+    src: url(../Font/OpenSans/OpenSans-Medium.ttf);
+}
+
+@font-face {
+    font-family: OpenSans-600;
+    src: url(../Font/OpenSans/OpenSans-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: OpenSans-700;
+    src: url(../Font/OpenSans/OpenSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: OpenSans-800;
+    src: url(../Font/OpenSans/OpenSans-ExtraBold.ttf);
+}
+
+// ============================== Yellowtail Local Font Family Link ==============================
+
+@font-face {
+    font-family: Yellowtail-400;
+    src: url(../Font/Yellowtail/Yellowtail-Regular.ttf);
+}
+
+
+// ============================== Yellowtail Local Font Family Link ==============================
+
+@mixin Website-Body-Small-Text {
+    // ============================== Website Body Small Text ==============================
+    font-size: 13px;
+    font-family: Saira-500;
+}
+
+@mixin Website-Body-Normal-Text {
+    // ============================== Website Body Small Text ==============================
+    font-size: 14px;
+    font-family: Saira-500;
+}
+
+@mixin Website-Body-Normal-Text-Light {
+    // ============================== Website Body Small Text ==============================
+    font-size: 14px;
+    font-family: Saira-400;
+}

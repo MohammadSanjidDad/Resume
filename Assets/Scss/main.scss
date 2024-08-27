@@ -1,0 +1,30 @@
+@import "Source/colors";
+@import "Source/typography";
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    background-color: $Website-Background-Color;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+// ============================== Custom Class ==============================
+.Container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.Active-Color {
+    color: $Website-Primary-Color;
+}
